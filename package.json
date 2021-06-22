@@ -1,0 +1,21 @@
+{
+  "name": "mvi-admin-cli",
+  "version": "1.0.0",
+  "description": "帮助你快速搭建一个基于mvi-web的后台管理系统模板",
+  "private": false,
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "mvi-admin-cli": "bin/cli"
+  },
+  "keywords": [],
+  "author": "lingkai",
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "co": "^4.6.0",
+    "co-prompt": "^1.0.0",
+    "commander": "^5.0.0"
+  }
+}
